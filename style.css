@@ -155,22 +155,23 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Centers content */
     padding: 1rem 2rem;
     background-color: #fff;
 }
 
-
 .nav__header {
     display: flex;
     align-items: center;
-    gap: 1.5rem; /* Ensures spacing between logo & menu button */
+    gap: 1rem; /* Reduce space */
+    flex-grow: 1; /* Allows better centering */
 }
 
 .nav__logo img {
-    max-height: 80px;
+    max-height: 120px; /* Increase logo size */
     width: auto;
 }
+
 
 .nav__menu__btn {
     display: none;
