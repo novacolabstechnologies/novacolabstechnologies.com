@@ -165,12 +165,14 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     gap: 1rem; /* Reduce space */
     flex-grow: 1; /* Allows better centering */
+    justify-content: center; /* Ensures alignment */
 }
 
 .nav__logo img {
-    max-height: 120px; /* Increase logo size */
+    max-height: 150px; /* Increase logo size */
     width: auto;
 }
+
 
 
 .nav__menu__btn {
