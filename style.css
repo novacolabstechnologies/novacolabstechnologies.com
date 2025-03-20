@@ -170,7 +170,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__logo img {
     max-height: 150px; /* Increase logo size */
+    height: 120px;
     width: auto;
+    margin-left: 20px;
 }
 
 
